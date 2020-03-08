@@ -1,6 +1,5 @@
 ## Prerequisites
 
-Verify that the current Python version is Python 3.x by typing ```python3 --version```.
 Install the following core packages required to run the Python visualization components:
 ```
 pip install matplotlib
@@ -11,23 +10,21 @@ pip install numpy
 
 The program consists of two components: the main C++ source file (main.cc), which performs the data analysis, and the Python source (plot.py) which visualizes the extracted data.
 
-There are also audio files in the 'test_audio' folder which can be used for testing.
-
 ## Running the program
 
 After setting up the required packages and navigating to the 'src' directory, use the main program by running:
 ```
-make && ./main <path_to_file> -info <info>
+make; ./audio <path_to_file> -info <info>
 ```
 For the Python visualization component, run:
 ```
-python3 plot.py
+py plot.py
 ```
-All output files are stored in the 'output' directory.
+All results are stored in the 'output' directory.
 
 ## Example usage
 
-A simple example of using the program is running ```./audio ../test_audio/mono.wav``` followed by ```python3 plot.py```.
+A simple example of using the program is running ```./audio ../test_audio/mono.wav``` followed by ```py plot.py```.
 Some other examples, using additional command line arguments, are:
 
 ```
@@ -42,5 +39,4 @@ chunk_size, format_type, num_channels, sample_rate, avg_bps, bytes_per_sample, b
 ## Other notes
 
 - This command-line tool only works on RIFF audio data (i.e the '.wav' file extension).
-- The plot only shows the first 5000 samples to save computational time, as the audio signal is periodic.
-- Code is well commented, separated into objects and uses powerful visualization library (Python's matplotlib) to visualize the signal data.
+- The plot only shows the first 5000 samples to save computation time, as the audio signal is periodic.
