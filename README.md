@@ -32,7 +32,6 @@ Some other examples, using additional command line arguments, are:
 ./main ../test_audio/mono.wav -info num_samples
 ```
 
-Note that the second command-line argument is optional; an audio file path at minimum is required to run the program.
 The -info switch can take the following arguments:
 chunk_size, format_type, num_channels, sample_rate, avg_bps, bytes_per_sample, bits_per_sample, data_size, length, num_samples
 
