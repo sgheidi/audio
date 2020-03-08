@@ -19,7 +19,6 @@ After setting up the required packages and navigating to the 'src' directory, us
 ```
 make && ./main <path_to_file> -info <info>
 ```
-Note that the second command line argument is optional.
 For the Python visualization component, run:
 ```
 python3 plot.py
