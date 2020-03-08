@@ -1,0 +1,14 @@
+File name and path: ../test_audio/mono.wav
+Chunk size: 16
+Format type: 1
+Number of channels: 1
+Sample rate: 44100
+Average bytes per second: 88200
+Bytes per sample: 2
+Bits per sample: 16
+Data size: 441000
+Audio length: 5 seconds
+Total number of samples read: 220500
+
+Time elapsed for audio data extraction: 0.03125 seconds
+Time elapsed for audio data visualization: 1.11256 seconds
