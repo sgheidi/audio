@@ -28,8 +28,8 @@ A simple example of using the program is running ```./audio ../test_audio/mono.w
 Some other examples, using additional command line arguments, are:
 
 ```
-./main ../test_audio/song.wav -info chunk_size
-./main ../test_audio/mono.wav -info num_samples
+./audio ../test_audio/song.wav -info chunk_size
+./audio ../test_audio/mono.wav -info num_samples
 ```
 
 The -info switch can take the following arguments:
