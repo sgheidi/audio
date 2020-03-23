@@ -2,8 +2,7 @@
 
 Install the following core packages required to run the Python visualization components:
 ```
-pip install matplotlib
-pip install numpy
+pip install matplotlib, numpy
 ```
 
 ## The program

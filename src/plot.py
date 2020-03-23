@@ -42,6 +42,7 @@ plt.ylabel('Sampling frequency')
 plt.yscale("log")
 
 plt.savefig("../output/plot.png")
+plt.show()
 end = time.time()
 
 with open("../output/info.log") as f:
