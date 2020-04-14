@@ -10,7 +10,7 @@ The program consists of two components: the main C++ source file (main.cc), whic
 
 ## Running the program
 
-After setting up the required packages and navigating to the 'src' directory, use the main program by running:
+After navigating to the 'src' directory, use the main program by running:
 ```
 make; ./audio <path_to_file> -info <info>
 ```
