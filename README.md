@@ -1,9 +1,8 @@
+# audio
+
 ## Prerequisites
 
-Install the following core packages required to run the Python visualization components:
-```
-pip install matplotlib, numpy
-```
+Run ```pip install -r requirements.txt```
 
 ## The program
 
