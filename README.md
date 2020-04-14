@@ -30,7 +30,7 @@ Some other examples, using additional command line arguments, are:
 ./audio ../test_audio/mono.wav -info num_samples
 ```
 
-The -info switch can take the following arguments:
+The ```-info``` switch can take the following arguments:
 chunk_size, format_type, num_channels, sample_rate, avg_bps, bytes_per_sample, bits_per_sample, data_size, length, num_samples
 
 ## Other notes
