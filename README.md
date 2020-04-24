@@ -6,7 +6,7 @@ Run ```pip install -r requirements.txt```
 
 ## The program
 
-The program consists of two components: the main C++ source file (main.cc), which performs the data analysis, and the Python source (plot.py) which visualizes the extracted data.
+The program consists of two components: the main C++ source file (main.cc), which performs the data extraction bit-by-bit, and the Python source (plot.py) which visualizes the extracted data.
 
 ## Running the program
 
